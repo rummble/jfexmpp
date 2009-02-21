@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<project name="FEXMPP" default="jar">
+	<target name="jar">
+		<jar destfile="fexmpp.jar">
+			<fileset dir="bin" />
+		</jar>
+	</target>
+</project>
