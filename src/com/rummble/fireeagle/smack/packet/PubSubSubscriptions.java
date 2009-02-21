@@ -75,18 +75,5 @@ public class PubSubSubscriptions extends IQ {
 		return s.toString();
 	}
 	
-	/*
-	 * 
-<iq from="fireeagle.com" to="clive@shirley.playtxt.net/a7011ae8e104e194be38f16f41eb9c67f78280f6" type="result" id="87v1L-6">
-  <pubsub xmlns="http://jabber.org/protocol/pubsub">
-    <subscriptions>
-      <subscription node="/api/0.1/user/tcdjUwn6zaRw" jid="camclive@jabber.org" subscription="subscribed"/>
-      <subscription node="/api/0.1/user/tcdjUwn6zaRw" jid="clive@shirley.playtxt.net" subscription="subscribed"/>
-      <subscription node="/api/0.1/user/EXVYkqr3da8t" jid="clive@shirley.playtxt.net" subscription="subscribed"/>
-    </subscriptions>
-  </pubsub>
-</iq>
-
-	 */
 	
 }

@@ -9,15 +9,6 @@ import com.rummble.fireeagle.smack.packet.PubSubSubscription;
 import com.rummble.fireeagle.smack.packet.PubSubSubscriptions;
 
 
-/*
- * <iq from="fireeagle.com" to="clive@shirley.playtxt.net/dd075e2d56b4a7d2860fd7ae12a82de64fcfacfc" type="result" id="V11lN-4">
-  <pubsub xmlns="http://jabber.org/protocol/pubsub">
-    <subscription node="/api/0.1/user/tcdjUwn6zaRw" jid="clive@shirley.playtxt.net" subscription="subscribed"/>
-  </pubsub>
-</iq>
-
- */
-
 public class PubSubProvider implements IQProvider {
 
 	public static String getNS() { return "http://jabber.org/protocol/pubsub"; }
